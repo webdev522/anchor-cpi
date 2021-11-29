@@ -1,0 +1,13 @@
+[programs.localnet]
+puppet = "9rTBAfnEftx8NvM4WuM29phPV2Ny6oEZLWyPksoVHu3U"
+puppet_master = "6FMy4kxH9N19EGXgFDtXNAqmvwpNQoR7FHy8fePmKH8J"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/webdev522/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
